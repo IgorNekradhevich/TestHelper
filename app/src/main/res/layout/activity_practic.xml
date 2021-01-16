@@ -7,16 +7,6 @@
     tools:context=".practic">
 
     <TextView
-        android:id="@+id/questionTV"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="TextView"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/number" />
-
-    <TextView
         android:id="@+id/number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,12 +62,29 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="146dp"
+        android:layout_height="42dp"
         android:layout_marginBottom="20dp"
+        android:background="@drawable/frame"
+        android:onClick="nextClick"
         android:text="@string/ButtonAns"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/questionTV"
+        android:layout_width="428dp"
+        android:layout_height="500dp"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="15dp"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
