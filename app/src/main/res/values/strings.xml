@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">testHelper</string>
+    <string name="t_button">Теория</string>
+    <string name="p_button">Практика</string>
+    <string name="s_button">Статистика</string>
+    <string name="numb">0 из 10</string>
+    <string name="ButtonAns">Ответить</string>
+    <string name="variant">Вариант ответа</string>
+</resources>
